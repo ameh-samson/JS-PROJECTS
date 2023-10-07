@@ -72,7 +72,7 @@ body {
 
 /* Modal Styling - Project 2 */
 
-body {
+/* body {
   height: 100vh;
   background: url(img/bg2.jpg) no-repeat center center/ cover;
   position: relative;
@@ -137,11 +137,11 @@ body {
   height: 100%;
   z-index: 1;
   background-color: #00000033;
-}
+} */
 
 /* Modal Animation */
 
-@keyframes animate-modal {
+/* @keyframes animate-modal {
   from {
     top: -300px;
     opacity: 0;
@@ -151,4 +151,4 @@ body {
     top: 50px;
     opacity: 1;
   }
-}
+} */
