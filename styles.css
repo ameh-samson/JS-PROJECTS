@@ -62,6 +62,7 @@ body {
   margin-top: 20px;
   border-radius: 5px;
   border: 2px solid #e47667;
+  cursor: pointer;
 }
 
 .button-area button:active {
