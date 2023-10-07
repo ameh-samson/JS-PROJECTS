@@ -7,6 +7,7 @@
   font-family: "Lato", sans-serif;
 }
 
+/* Quote Generator
 body {
   display: flex;
   justify-content: center;
@@ -67,4 +68,15 @@ body {
 
 .button-area button:active {
   background-color: #add8e6;
+} */
+
+/* Modal Styling - Project 2 */
+
+body {
+  height: 100vh;
+  background: url(img/bg2.jpg) no-repeat center center/ cover;
+  position: relative;
+}
+
+#open-btn {
 }
