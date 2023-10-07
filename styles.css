@@ -70,7 +70,7 @@ body {
   background-color: #add8e6;
 } */
 
-/* Modal Styling - Project 2 */
+/* Modal Styling - Project 2 
 
 /* body {
   height: 100vh;
@@ -220,7 +220,7 @@ body {
 
 /* Project 4: Stop-Watch */
 
-body {
+/* body {
   height: 100vh;
   background: url(img/bg4.jpg) no-repeat center center/cover;
   display: flex;
@@ -270,4 +270,103 @@ button i {
 
 #pause {
   background-color: orange;
+} */
+
+/* Project 5: To-Do List */
+
+body {
+  height: 100vh;
+  background: url(img/bg5.jpg) no-repeat center center/cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#add-task-container {
+  width: 350px;
+  padding: 20px 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 3px;
+  margin-bottom: 20px;
+
+  display: flex;
+}
+
+input {
+  flex: 5;
+  margin-right: 10px;
+  border-radius: 18px;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+#add-task {
+  flex: 5;
+  transition: 0.3s;
+
+  font-size: 1.2rem;
+  padding: 5px;
+  color: green;
+
+  border: green solid 2px;
+  border-radius: 10px;
+}
+
+#add-task:hover {
+  background-color: green;
+  color: #fff;
+}
+
+/* Style for task */
+.task {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 3px;
+  padding: 5px;
+  margin-bottom: 5px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.task li {
+  list-style: none;
+  flex: 4;
+  padding: 5px;
+  font-size: 1.3rem;
+  margin: 10px;
+}
+
+.task button {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.task .checkTask {
+  color: orange;
+  margin-left: 5px;
+  border: solid 2px orange;
+  font-size: 1.5rem;
+}
+
+.task .checkTask:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+.task .deleteTask {
+  color: red;
+  margin-left: 5px;
+  border: solid 2px red;
+  font-size: 1.3rem;
+}
+
+.task .deleteTask:hover {
+  background-color: red;
+  color: #fff;
 }
