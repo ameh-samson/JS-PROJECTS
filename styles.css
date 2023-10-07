@@ -115,7 +115,7 @@ body {
   align-items: center;
 
   animation-name: animate-modal;
-  animation-duration: 0.4s;
+  animation-duration: 0.5s;
 }
 
 #close-btn {
@@ -136,4 +136,19 @@ body {
   width: 100%;
   height: 100%;
   z-index: 1;
+  background-color: #00000033;
+}
+
+/* Modal Animation */
+
+@keyframes animate-modal {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 50px;
+    opacity: 1;
+  }
 }
